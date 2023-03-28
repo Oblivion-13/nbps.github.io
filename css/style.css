@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin-left: 900px;
+  margin-top: 200px;
+}
+
+body {
+  background: #c3cce1;
+  color: #444;
+  font-size: 12px;
+  color: #333;
+  font-family: "Oswald", sans-serif;
+  /* background-image: url(../images/pool.jpg); */
+  background-repeat: no-repeat;
+  background-size: 750px;
+  margin-top: -135px;
+  margin-left: -1070px;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.page_pool {
+  display: grid;
+  grid-template-columns: 150px 1fr 20px;
+  /* grid-template-rows: 50px 50px 50px 50px 75px 75px 75px 75px; */
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  /* grid-template-rows: repeat(9 50px); */
+}
+
+.pool_b {
+  width: 180px !important;
+  margin-left: 10px !important;
+  grid-column: 2/3;
+  grid-row: 1/4;
+  /* grid-row: 1/4; */
+  transition: all 0.2s ease-in-out !important;
+  border: none !important;
+}
+
+.pool_b:hover {
+  transform: scale(1.2) !important;
+  border: none !important;
+}
+
+.pool_c {
+  width: 180px !important;
+  margin-left: 10px !important;
+  grid-column: 2/3;
+  grid-row: 4/7;
+  /* grid-row: 4/7; */
+  transition: all 0.2s ease-in-out !important;
+  border: none !important;
+}
+
+.pool_c:hover {
+  transform: scale(1.2) !important;
+  border: none !important;
+}
+
+.pool_a {
+  width: 180px !important;
+  margin-left: 10px !important;
+  grid-column: 2/3;
+  grid-row: 7/10;
+  /* grid-row: 7/10; */
+  transition: all 0.2s ease-in-out !important;
+  border: none !important;
+}
+
+.pool_a:hover {
+  transform: scale(1.2) !important;
+  border: none !important;
+}
+
+.pool_title {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-bottom: 1px solid#222 !important;
+  border-width: 30%;
+}
+
+.pool_description {
+  grid-column: 1/2;
+  grid-row: 2/5;
+}
+
+/* .pool_size {
+  grid-column:1/2;
+  grid-row: 4/5;
+  font-size: 1.25rem !important;
+} */
+
+.pool_price1 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  /* grid-row: 5/6; */
+  font-size: 1.1rem !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.abc {
+  font-size: 1rem !important;
+  color: rgb(255, 0, 0) !important;
+}
+
+.pool_price2 {
+  grid-column: 1/2;
+  grid-row: 6/7;
+  /* grid-row: 6/7; */
+  font-size: 1.1rem !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.pool_price3 {
+  grid-column: 1/2;
+  grid-row: 7/8;
+  /* grid-row: 7/8; */
+  font-size: 1.1rem !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.pool_price4 {
+  grid-column: 1/2;
+  grid-row: 8/9;
+  /* grid-row: 8/9; */
+  font-size: 1.1rem !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.box {
+  text-align: center;
+}
+
+/* .wrapper_image {
+  position: relative;
+  top: 510px;
+  left: 11.5px;
+  border-radius: 15px;
+  z-index: 1000;
+  opacity: 0.3;
+} */
+
+.box_index {
+  padding-bottom: 0 !important;
+}
+
+.box_welcome,
+p,
+.box_links {
+  font-weight: 900;
+}
+
+.box_links {
+  margin-top: 0;
+  line-height: 2;
+}
+
+.box a {
+  font-size: 1.2rem;
+}
+
+.logo {
+  border: none !important;
+  margin-right: 1.75rem !important;
+}
+
+.box_1 .welcome {
+  text-align: center;
+}
+
+.welcome {
+  font-size: 0.75rem !important;
+}
+
+.bold_blue {
+  font-weight: 900 !important;
+  font-size: 1rem;
+  color: #3b3e62;
+}
+
+.booklet {
+  width: 900px;
+  height: 607px;
+  position: relative;
+  margin: 0 auto 10px;
+  -moz-box-shadow: 0px 0px 1px #fff;
+  -webkit-box-shadow: 0px 0px 1px #fff;
+  box-shadow: 0px 0px 1px #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.booklet .b-wrap-left {
+  background: #fff url(images/left_bg.jpg) no-repeat top left;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.booklet .b-wrap-right {
+  background: #ffffff url(images/right_bg.jpg) no-repeat top left;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.booklet .b-counter {
+  bottom: 10px;
+  position: absolute;
+  display: block;
+  width: 90%;
+  height: 20px;
+  border-top: 1px solid #ddd;
+  color: #222;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 0 0;
+  background: transparent;
+  -moz-box-shadow: 0px -1px 1px #fff;
+  -webkit-box-shadow: 0px -1px 1px #fff;
+  box-shadow: 0px -1px 1px #fff;
+  opacity: 0.8;
+}
+.book_wrapper {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 905px;
+  height: 540px;
+  position: relative;
+  background: transparent url(images/bg.png) no-repeat 9px 27px;
+}
+.book_wrapper h1 {
+  color: rgb(8, 18, 74);
+  margin: 5px 5px 5px 15px;
+  font-size: 24px;
+  background: transparent url(images/h1.png) no-repeat bottom left;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.book_wrapper p {
+  font-size: 15px;
+  margin: 5px 5px 5px 15px;
+}
+.book_wrapper a.article,
+.book_wrapper a.demo {
+  background: transparent url(images/circle.png) no-repeat 50% 0px;
+  display: block;
+  width: 95px;
+  height: 41px;
+  text-decoration: none;
+  outline: none;
+  font-size: 16px;
+  color: #555;
+  float: left;
+  line-height: 41px;
+  padding-left: 47px;
+}
+.book_wrapper a.demo {
+  margin-left: 50px;
+}
+.book_wrapper a.article:hover,
+.book_wrapper a.demo:hover {
+  background-position: 50% -41px;
+  color: #13386a;
+}
+.book_wrapper img {
+  margin: 10px 0px 5px 35px;
+  width: 300px;
+  padding: 4px;
+  border: 1px solid #ddd;
+  -moz-box-shadow: 1px 1px 1px #fff;
+  -webkit-box-shadow: 1px 1px 1px #fff;
+  box-shadow: 1px 1px 1px #fff;
+}
+.booklet .b-wrap-right img {
+  border: 1px solid #ddd;
+}
+a#next_page_button,
+a#prev_page_button {
+  display: none;
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: -20px;
+  top: 50%;
+  background: transparent url(images/buttons.png) no-repeat 0px -40px;
+}
+a#prev_page_button {
+  left: -30px;
+}
+a#next_page_button {
+  right: -30px;
+  background-position: -41px -40px;
+}
+a#next_page_button:hover {
+  background-position: -41px 0px;
+}
+a#prev_page_button:hover {
+  background-position: 0px 0px;
+}
